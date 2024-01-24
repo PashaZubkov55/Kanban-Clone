@@ -1,4 +1,5 @@
 import React from "react"
+import bord from '../../assets/bord.jpg'
 export const SideBar = ()=>{
     return(
      <div className="sidebar">
@@ -15,6 +16,9 @@ export const SideBar = ()=>{
             </div>
         <ul className="content__items">
             <li className="content__item">
+                <span className="content_icon">
+                    <img src={bord} alt="icon" />
+                </span>
                 bord 1
             </li>
             <li className="content__item content__item-active">
